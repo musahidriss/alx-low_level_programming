@@ -8,19 +8,17 @@
 
 void print_square(int size)
 {
-	int co, ro;
-
 	if (size <= 0)
 	{
 		_putchar('\n');
 	}
 	else
 	{
-		for (co = 1; co <= size; co++)
-		{
-			_putchar('#');
+		int co, ro;
 
-			for (ro = 2; ro <= size; ro++)
+		for (co = 0; co < size; co++)
+		{
+			for (ro = 0; ro < size; ro++)
 			{
 				_putchar('#');
 			}
