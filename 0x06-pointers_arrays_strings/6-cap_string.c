@@ -32,5 +32,6 @@ char *cap_string(char *z)
 			str[index] -= 32;
 		index++;
 	}
+
 	return (str);
 }
