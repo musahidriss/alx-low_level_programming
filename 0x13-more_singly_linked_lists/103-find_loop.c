@@ -8,7 +8,7 @@
  * Return: If there is no loop - NULL.
  *         Otherwise - the address of the node where the loop starts.
  */
- 
+
 listint_t *find_listint_loop(listint_t *head)
 {
 	listint_t *tortoise, *hare;
